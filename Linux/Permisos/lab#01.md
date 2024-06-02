@@ -61,3 +61,26 @@ Anota los nuevos permisos de cada archivo y directorio en la siguiente tabla:
 | archivoC.txt    |                 |
 | subdirectorio   |                 |
 
+### 6. Cambio de Propietarios
+1. Cambia el propietario de archivoA.txt a otro usuario (reemplaza otro_usuario con el nombre de un usuario existente en el sistema o crealo).
+```sh
+
+```
+3. Cambia el grupo de archivoB.txt a otro grupo (reemplaza otro_grupo con el nombre de un grupo existente en el sistema o crealo).
+```sh
+
+```
+5. Cambia el propietario y grupo de archivoC.txt a otro_usuario y otro_grupo.
+```sh
+
+```
+### 7. Verificación de Cambios de Propietarios
+1. Usa el comando ls -l para verificar los cambios en los propietarios y grupos.
+2. Anota los nuevos propietarios y grupos de cada archivo en la siguiente tabla:
+
+| **Nombre**      | **Nuevo propietario** | **Nuevo grupo**|
+|-----------------|-----------------|-----------------------|
+| archivoA.txt	  |                 |                       |
+| archivoB.txt    |                 |                       |
+| archivoC.txt    |                 |                       |
+| subdirectorio   |                 |                       |
