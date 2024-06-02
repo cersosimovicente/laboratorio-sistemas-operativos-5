@@ -107,7 +107,15 @@ Cambia el grupo de archivo3.txt a otro grupo (ej. grupo2).
 ```sh
 sudo chown :grupo2 archivo3.txt
 ```
-
+## 4. Verificación
+### 4.1 Revisar Cambios
+Usa `ls -l` para verificar los cambios realizados en los archivos.
+```sh
+ls -l
+```
+### 4.2 Comprobación de Permisos
+Intenta acceder y modificar los archivos con diferentes usuarios para comprobar que los permisos funcionan correctamente.
+# FIN
 
 
 
