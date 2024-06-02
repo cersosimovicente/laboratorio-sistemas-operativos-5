@@ -75,4 +75,22 @@ chown :grupo archivo.txt
 ```sh
 chown usuario:grupo archivo.txt
 ```
+## 3. Práctica guiada
+## 3. Creación de Archivos y Directorios
+
+### 3.1 Creación de Archivos y Directorios
+Crear un nuevo directorio y varios archivos dentro de él.
+```sh
+# Crear un nuevo directorio
+mkdir nombre_del_directorio
+
+# Cambiar al nuevo directorio
+cd nombre_del_directorio
+
+# Crear varios archivos dentro del nuevo directorio
+touch archivo1 archivo2 archivo3
+```
+### 3.2 Modificación de Permisos y Propietarios
+Cambia los permisos de `archivo1.txt` a `rw-r--r--`.
+
 
