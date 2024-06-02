@@ -92,5 +92,22 @@ touch archivo1 archivo2 archivo3
 ```
 ### 3.2 Modificación de Permisos y Propietarios
 Cambia los permisos de `archivo1.txt` a `rw-r--r--`.
+```sh
+chmod 644 archivo1.txt
+```
+Cambia los permisos de archivo2.txt a rwxr-x---.
+```sh
+chmod 750 archivo2.txt
+```
+Cambia el propietario de archivo3.txt a otro usuario (ej. usuario2).
+```sh
+sudo chown usuario2 archivo3.txt
+```
+Cambia el grupo de archivo3.txt a otro grupo (ej. grupo2).
+```sh
+sudo chown :grupo2 archivo3.txt
+```
+
+
 
 
