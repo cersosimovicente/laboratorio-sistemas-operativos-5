@@ -84,3 +84,7 @@ Anota los nuevos permisos de cada archivo y directorio en la siguiente tabla:
 | archivoB.txt    |                 |                       |
 | archivoC.txt    |                 |                       |
 | subdirectorio   |                 |                       |
+
+### 8. Reflexión
+¿Qué diferencias observaste en el comportamiento de los archivos y directorios al cambiar sus permisos y propietarios?
+¿Por qué es importante gestionar correctamente los permisos en un sistema Linux?
