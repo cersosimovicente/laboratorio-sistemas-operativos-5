@@ -82,7 +82,7 @@ pstree 1907
 
 Que nos devolverá una salida como esta:
 
-![Procesos/pstree.png](Procesos/pstree.png)
+![imgs/pstree.png](imgs/pstree.png)
 \ 
 
 ### Comando top
@@ -95,7 +95,7 @@ top
 
 Ejecución:
 
-![Top](Procesos/top.png)
+![Top](imgs/top.png)
 
 
 ### Comando kill
@@ -108,7 +108,7 @@ Una lista posible de las señales que le podemos enviar a un proceso nos la mues
 
 Salida:
 
-![Kill -L ](Procesos/kill.png)
+![Kill -L ](imgs/kill.png)
 
 Una de las opciones más comunes es la opción 9: `SIGKILL` que _termina_ el proceso que se le indica. 
 
