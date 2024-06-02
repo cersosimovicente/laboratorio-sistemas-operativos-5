@@ -68,3 +68,11 @@ El comando `chown` cambia el propietario y el grupo de un archivo o directorio.
 chown usuario archivo.txt
 ```
 ### 2.2.2 Cambiar el Grupo
+```sh
+chown :grupo archivo.txt
+```
+### 2.2.3 Cambiar Propietario y Grupo Simultáneamente
+```sh
+chown usuario:grupo archivo.txt
+```
+
