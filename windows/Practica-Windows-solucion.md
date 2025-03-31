@@ -133,7 +133,6 @@ Get-ChildItem -Force | Sort-Object LastWriteTime
 
 ## Tabla de comandos utilizados
 
-```markdown
 | Comando (CMD)                        | Comando (PowerShell)                         | Descripción |
 |---------------------------------------|---------------------------------------------|-------------|
 | `mkdir NombreDirectorio`              | `New-Item -ItemType Directory -Path NombreDirectorio` | Crea un nuevo directorio. |
@@ -144,6 +143,5 @@ Get-ChildItem -Force | Sort-Object LastWriteTime
 | `type archivo.txt`                    | `Get-Content -Path archivo.txt`            | Muestra el contenido de un archivo. |
 | `xcopy /E /I CarpetaOrigen CarpetaDestino` | `Copy-Item -Path CarpetaOrigen -Destination CarpetaDestino -Recurse` | Copia toda una estructura de directorios. |
 | `rd /S /Q Carpeta`                    | `Remove-Item -Path Carpeta -Recurse -Force` | Borra una carpeta y su contenido. |
-| `ls -alrt`                             | `Get-ChildItem -Force | Sort-Object LastWriteTime` | Lista los archivos con detalles ordenados por fecha. |
-```
+| `ls -alrt`                             | `Get-ChildItem -Force ` | ` Sort-Object LastWriteTime` | Lista los archivos con detalles ordenados por fecha. |
 
