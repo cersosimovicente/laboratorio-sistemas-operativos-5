@@ -2,6 +2,19 @@
 
 ## 1. Crear la estructura de directorios
 
+```mermaid
+graph TD;
+    A[PracticaWindows] --> B[PrimeraParte];
+    B --> C[Seccion1];
+    C --> fichero1.txt
+    C --> fichero2.txt
+    B --> D[Seccion2];
+    D --> fichero3.txt
+    D --> fichero4.txt
+    A --> E[SegundaParte];
+    E --> fichero5.txt
+```
+
 Desde el directorio de usuario, ejecuta los siguientes comandos:
 
 ### **CMD:**
