@@ -13,8 +13,7 @@ graph TD;
     A --> E[SegundaParte];
     E --> fichero5.txt
 ```
-## 1 Crear directorios
-.	En el directorio de usuario crea la misma estructura de carpetas que se muestra en la figura (solo las carpetas). Sin cambiar de carpeta, es decir, ejecutando los comandos siempre desde la carpeta de usuario C:\Users\nombreusuario
+## 1 Crear directorios. En el directorio de usuario crea la misma estructura de carpetas que se muestra en la figura (solo las carpetas). Sin cambiar de carpeta, es decir, ejecutando los comandos siempre desde la carpeta de usuario C:\Users\nombreusuario
 
 ## 2. Cambia de directorio a  Seccion1. Recordá que cuando comenzás a escribir el nombre de un fichero o carpeta en el intérprete, la tecla TAB lo completa. Una vez en la carpeta Seccion1 ejecuta desde la línea de comandos el editor notepad. Inserta en el fichero la frase “Este es el contenido del fichero 1” y guardarlo con nombre fichero1.txt tal y como se muestra en la figura.
 
