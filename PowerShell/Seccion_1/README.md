@@ -36,4 +36,28 @@ Add-LocalGroupMember: Agrega un miembro a un grupo.
 
 Remove-LocalGroupMember: Elimina un miembro de un grupo local.
 
+```powershell
+#Creación de un usuario
+$usuario = Read-Host "Introduce nombre de usuario"
+$contra = Read-Host "Introduce contraseña" -AsSecureString
+New-LocalUser $usuario -Password $contra
+Add-LocalGroupMember -Group usuarios -Member $usuario
+```
+```powershell
+#Creación de usuarios de forma masiva
+$usuarios = Import-Csv -Path C:\material\usuarios.csv
+foreach ($i in $usuarios) {
+    $clave = ConvertTo-SecureString $i.contra -AsPlainText -Force
+    New-LocalUser $i.nombre -Password $clave -AccountNeverExpires -PasswordNeverExpires
+    Add-LocalGroupMember -Group usuarios -Member $i.nombre
+}
+```
+
+```powershell
+#Eliminación de usuarios de forma masiva
+$usuarios= Import-Csv -Path C:\material\usuarios.csv
+foreach ($i in $usuarios) {
+    Remove-LocalUser -Name $i.nombre
+}
+
 
